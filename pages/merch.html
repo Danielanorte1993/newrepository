@@ -7,14 +7,57 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--boostrap-->
+    
+</head>
+
+    <style>
+        /* css */
+        .producto {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .producto img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>LOS MEJORES PRODUCTOS PARA VIAJEROS</h1>
-<ul>
-    <li class="buzo"> <a href="">Buzo Travel</a></li><img class="imgbuzo" src="../img/cata-pastel1-4699f8754a86ae125116503148981267-640-0.jpg" alt="">
-    <li class="taza"> <a href=""> Taza The World is yours</a></li><img class="imgtaza" src="../img/psx_20211207_174508-cc38180289714be1db16389107347109-480-0.jpg" alt="">
-    <li class="cubrevalija"> <a href=""> Cubre Valija</a></li><img class="imgvalija" src="../img/mapamundi-negro-gastado1-20f0e3ca3d5a55b6a215828371711193-480-0.jpg" alt="">
-    <li class="Remera"> <a href=""> Remera Travel</a></li><img class="imgremera" src="../img/Camiseta-de-avi-n-con-mapa-del-mundo-para-mujer-camiseta-divertida-de-vacaciones-de-verano (1).jpg" alt="">
-</ul>
+
+    <!-- Contenido de la página -->
+    <div class="container mt-5">
+        <h2>Los mejores productos para viajeros</h2>
+
+        <div class="row">
+            <!-- Primer producto -->
+            <div class="col-md-4">
+                <div class="producto">
+                  <img src="../img/psx_20211207_174508-cc38180289714be1db16389107347109-480-0.jpg" alt="">
+                   <button type="submit" class="btn"> Taza Travel </button>
+                </div>
+            </div>
+
+            <!-- Segundo producto -->
+            <div class="col-md-4">
+                <div class="producto">
+                    <img src="../img/cata-pastel1-4699f8754a86ae125116503148981267-640-0.jpg"alt="Producto 2">
+                    <button type="submit" class="btn" class="text-center">Buzo Travel</button>
+                </div>
+            </div>
+
+            <!-- Tercer producto -->
+            <div class="col-md-4">
+                <div class="producto">
+                    <img src="../img/mapamundi-negro-gastado1-20f0e3ca3d5a55b6a215828371711193-480-0.jpg" alt="">
+                    <button type="submit" class="btn" class="text-center">Cubre Valija</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
 </body>
 </html>
