@@ -1,0 +1,96 @@
+h1 {
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  header nav ul li {
+    display: inline;
+    font-size: smaller;
+    padding: 8px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  a {
+    color: rgb(104, 75, 104);
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  p {
+    text-align: center;
+    font-size: large;
+    position: relative;
+    right: 500px;
+    width: 800px;
+    left: 230px;
+    top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .mujer {
+    position: absolute;
+    left: 100px;
+    height: 500px;
+    top: 650px;
+    width: 600px;
+  }
+  
+  // ... (rest of your styles)
+  
+  .button p {
+    color: #fff;
+  }
+  
+  span {
+    color: #ab4493;
+  }
+  
+  .aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+  }
+  
+  h1 {
+    font-size: 39px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #ab4493;
+  }
+  
+  h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #0e0e0e;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #a8a8a8;
+  }
+  
+  ::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+  }
+  
+  .formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+  }
+  
+  .formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+  }
+  
